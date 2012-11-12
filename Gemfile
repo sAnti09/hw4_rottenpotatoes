@@ -9,7 +9,6 @@ gem 'rails', '3.1.0'
 group :development, :test do
   gem 'sqlite3'
   #gem 'ruby-debug19', :require => 'ruby-debug'
-  gem 'cucumber-rails-training-wheels' # some pre-fabbed step definitions
   gem 'database_cleaner' # to clear Cucumber's test database between runs
   gem 'capybara'         # lets Cucumber pretend to be a web browser
   gem 'launchy'          # a useful debugging aid for user stories
@@ -18,6 +17,7 @@ group :development, :test do
 end
 
 group :test do
+  gem 'cucumber-rails-training-wheels' # some pre-fabbed step definitions
   gem 'cucumber-rails'
 end
 
