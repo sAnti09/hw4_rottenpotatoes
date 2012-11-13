@@ -19,6 +19,8 @@ end
 group :test do
   gem 'cucumber-rails-training-wheels' # some pre-fabbed step definitions
   gem 'cucumber-rails'
+  gem 'ZenTest', "~> 4.4.2"
+  gem 'autotest-rails', "~> 4.1.0"
 end
 
 group :production do
